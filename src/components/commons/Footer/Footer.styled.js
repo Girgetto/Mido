@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Footer from './Footer.component';
+import styled from 'styled-components'
+import Footer from './Footer.component'
 
 export default styled(Footer).attrs()`
   text-align: center;
@@ -7,4 +7,4 @@ export default styled(Footer).attrs()`
   bottom: 0;
   left: 0;
   padding: 1%;
-`;
+`

@@ -1,10 +1,6 @@
-import { handleActions } from 'redux-actions';
-import initialState from './initial.state';
-import * as actions from './actionCreators';
+import { handleActions } from 'redux-actions'
+import initialState from './initial.state'
 
-const ui = handleActions(
-  {},
-  initialState,
-);
+const ui = handleActions({}, initialState)
 
-export default ui;
+export default ui

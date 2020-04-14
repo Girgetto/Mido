@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Contacts from './Contacts.component';
+import styled from 'styled-components'
+import Contacts from './Contacts.component'
 
 export default styled(Contacts).attrs()`
   width: 80%;
@@ -8,4 +8,4 @@ export default styled(Contacts).attrs()`
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-`;
+`

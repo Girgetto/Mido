@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import MainLayout from './MainLayout.component';
+import styled from 'styled-components'
+import MainLayout from './MainLayout.component'
 
 export default styled(MainLayout).attrs({})`
   position: relative;
@@ -9,4 +9,4 @@ export default styled(MainLayout).attrs({})`
   .content {
     min-height: 100%;
   }
-`;
+`

@@ -1,13 +1,21 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import style from './style.module.scss'
 
 const Main = () => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
-  <section className="firstSection">
-    <h1 className="mainTitle">{t('title')}</h1>
-    <p>{t('home.RealEstate')}</p>
-  </section>
-)};
+    <section className={style.firstSection}>
+      <div className={style.mainTitle}>
+        <h1 data-aos="fade-right" data-aos-duration="1000">
+          {t('title')}
+        </h1>
+        <p data-aos="fade-left" data-aos-duration="1000">
+          {t('home.RealEstate')}
+        </p>
+      </div>
+    </section>
+  )
+}
 
-export default Main;
+export default Main

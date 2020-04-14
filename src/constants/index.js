@@ -1,6 +1,6 @@
 export const ROUTES = {
-  index: '/remida/home',
-  aboutUs: '/remida/about-us',
-  services: '/remida/services',
-  contacts: '/remida/contacts'
+  index: '/',
+  aboutUs: '/about-us',
+  services: '/services',
+  contacts: '/contacts',
 }

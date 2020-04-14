@@ -1,6 +1,26 @@
-@import "../../../../scss/main.scss";
+@import '../../../../scss/main.scss';
+
+.firstSection {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .mainTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('../../../../assets/img/franco.jpg');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    min-height: 500px;
+    background-position: center;
+    padding: 2rem;
+    box-shadow: 0 0 38px 48px black inset;
+  }
+}
 
 .column_2 {
+  position: relative;
   width: 50%;
   padding: 20px;
 }
@@ -24,11 +44,12 @@
 
 .squares {
   display: flex;
+  padding: 150px 0;
 
   .wrapper {
     padding: 4%;
   }
-  
+
   .square {
     width: 33%;
     .image {
@@ -42,13 +63,59 @@
 
 .ourMission {
   display: flex;
-  margin: 150px;
-}
-
-.lastSection {
-  margin: 150px;
 }
 
 .image {
   width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+  .column_2 {
+    width: 100%;
+  }
+
+  .ourMission {
+    flex-direction: column;
+  }
+
+  .squares {
+    flex-direction: column;
+
+    .square {
+      width: 100%;
+    }
+  }
+
+  .lastSection {
+    padding: 4%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .column_2 {
+    position: relative;
+  }
+
+  .ourMission {
+    display: flex;
+    margin: 150px;
+  }
+
+  .lastSection {
+    margin: 150px;
+  }
 }

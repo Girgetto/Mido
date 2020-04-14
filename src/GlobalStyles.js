@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Notable');
@@ -19,4 +19,4 @@ export default createGlobalStyle`
     font-weight: 100;
     color: rgba(255,255,255,0.6);
   }
-`;
+`

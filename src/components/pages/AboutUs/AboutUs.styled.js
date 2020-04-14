@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import AboutUs from './AboutUs.component';
+import styled from 'styled-components'
+import AboutUs from './AboutUs.component'
 
 export default styled(AboutUs).attrs({})`
   margin: 0 auto;
-  width: 60%; 
+  width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -13,4 +13,4 @@ export default styled(AboutUs).attrs({})`
     text-decoration: none;
     color: white;
   }
-`;
+`

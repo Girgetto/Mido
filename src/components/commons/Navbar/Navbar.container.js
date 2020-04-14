@@ -1,13 +1,13 @@
-import { connect } from 'react-redux';
-import Navbar from './Navbar.styled';
-import { setLanguage } from '../../../state/UI/actionCreators';
+import { connect } from 'react-redux'
+import Navbar from './Navbar.styled'
+import { setLanguage } from '../../../state/UI/actionCreators'
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   language: state.ui.language,
-});
+})
 
-const mapDispatchToProps = dispatch => ({
-  setLanguage: lng => dispatch(setLanguage(lng))
-});
+const mapDispatchToProps = (dispatch) => ({
+  setLanguage: (lng) => dispatch(setLanguage(lng)),
+})
 
-export default connect(mapStateToProps, mapDispatchToProps)(Navbar);
+export default connect(mapStateToProps, mapDispatchToProps)(Navbar)

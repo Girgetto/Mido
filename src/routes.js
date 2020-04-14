@@ -1,8 +1,8 @@
-import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
-import { Home, AboutUs, Services, Contacts } from './components/pages';
-import { MainLayout } from './components/layout';
-import { ROUTES } from './constants';
+import React from 'react'
+import { Switch, Route, Redirect } from 'react-router-dom'
+import { Home, AboutUs, Services, Contacts } from './components/pages'
+import { MainLayout } from './components/layout'
+import { ROUTES } from './constants'
 
 const Routes = (
   <Switch>
@@ -43,7 +43,7 @@ const Routes = (
       )}
     />
     <Route
-      path='*'
+      path="*"
       exact
       component={() => (
         <MainLayout>
@@ -51,8 +51,8 @@ const Routes = (
         </MainLayout>
       )}
     />
-    <Redirect to='/'/>
+    <Redirect to="/" />
   </Switch>
-);
+)
 
-export default Routes;
+export default Routes

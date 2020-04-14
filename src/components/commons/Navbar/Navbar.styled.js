@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Navbar from './Navbar.component';
+import styled from 'styled-components'
+import Navbar from './Navbar.component'
 
 export default styled(Navbar).attrs({})`
   height: 40px;
@@ -39,9 +39,8 @@ export default styled(Navbar).attrs({})`
     max-width: 20vw;
     &__gb,
     &__it,
-    &__ru, 
     &__cn
-    {
+    &__ru {
       border: 1px solid white;
       width: 30px;
       height: 30px;
@@ -68,6 +67,5 @@ export default styled(Navbar).attrs({})`
   }
   &__ru {
     opacity: ${({ language }) => language === 'cn' && '1'};
-  }
   }
 `;

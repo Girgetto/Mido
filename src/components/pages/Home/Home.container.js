@@ -1,5 +1,4 @@
-import { connect } from 'react-redux';
-import Login from './Home.styled';
+import { connect } from 'react-redux'
+import Login from './Home.styled'
 
-
-export default connect()(Login);
+export default connect()(Login)

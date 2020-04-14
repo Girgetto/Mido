@@ -1,10 +1,10 @@
-import Main from './Main';
-import SecondSection from './SecondSection';
-import OurMission from './OurMission';
-import FirstRow from './FirstRow';
-import SecondRow from './SecondRow';
-import ThirdRow from './ThirdRow';
-import LastSection from './LastSection';
+import Main from './Main'
+import SecondSection from './SecondSection'
+import OurMission from './OurMission'
+import FirstRow from './FirstRow'
+import SecondRow from './SecondRow'
+import ThirdRow from './ThirdRow'
+import LastSection from './LastSection'
 
 export {
   Main,
@@ -13,5 +13,5 @@ export {
   FirstRow,
   SecondRow,
   ThirdRow,
-  LastSection
+  LastSection,
 }
