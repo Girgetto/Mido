@@ -90,4 +90,14 @@ export default styled(AboutUs).attrs({})`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    img {
+      display: none;
+    }
+
+    .main-content {
+      width: 100% !important;
+    }
+  }
 `

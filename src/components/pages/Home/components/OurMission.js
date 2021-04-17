@@ -18,7 +18,7 @@ const OurMission = () => {
     >
       <div className={styled.column_2}>
         <Parallax y={[-40, 20]}>
-          <img className={styles.image} src={lionImage} alt="view4" />
+          <img className={styles.image} id={styles.lion} src={lionImage} alt="view4" />
         </Parallax>
       </div>
       <div className={styled.column_2}>

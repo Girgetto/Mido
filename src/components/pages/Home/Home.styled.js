@@ -15,4 +15,10 @@ export default styled(Home).attrs({})`
       color: white;
     }
   }
-`;
+
+  @media only screen and (max-width: 600px) {
+    .logo-header {
+      width: 300px !important;
+    }
+  }
+`

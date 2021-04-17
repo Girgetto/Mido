@@ -34,15 +34,6 @@ const Routes = (
       )}
     />
     <Route
-      path={ROUTES.contacts}
-      exact
-      component={() => (
-        <MainLayout>
-          <Contacts />
-        </MainLayout>
-      )}
-    />
-    <Route
       path="*"
       exact
       component={() => (

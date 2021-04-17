@@ -71,4 +71,21 @@ export default styled(Services).attrs({})`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    padding-bottom: 125px;
+
+    .lists,
+    .flex {
+      flex-direction: column;
+    }
+
+    .flex {
+      height: 550px !important;
+
+      img {
+        width: 336px !important;
+      }
+    }
+  }
 `

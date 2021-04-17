@@ -2,7 +2,6 @@ export const LINKS = (t, ROUTES) => [
   { name: t('navbar.home', 'Home'), route: ROUTES.index },
   { name: t('navbar.aboutUs', 'About Us'), route: ROUTES.aboutUs },
   { name: t('navbar.services', 'Services'), route: ROUTES.services },
-  { name: t('navbar.contacts', 'Contacts'), route: ROUTES.contacts },
 ]
 export const LANGUAGES = [
   { language: 'en', style: 'gb' },
