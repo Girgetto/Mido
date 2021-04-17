@@ -71,6 +71,12 @@ export default styled(Services).attrs({})`
       }
     }
   }
+  .links {
+    > a {
+      color: white;
+      padding: 5px;
+    }
+  }
 
   @media (max-width: 768px) {
     padding-bottom: 125px;

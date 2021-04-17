@@ -1,5 +1,11 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import accordoDiSegnalazione from '../../../../src/assets/contracts/accordo_di_segnalazione.docx'
+import accordoMediatoriEn from '../../../../src/assets/contracts/accordo_mediatori_en.doc'
+import accordoMediatori from '../../../../src/assets/contracts/accordo_mediatori.doc'
+import consenso from '../../../../src/assets/contracts/consenso_al_trattamento_dei_dati.pdf'
+import contrattoSegnalatore from '../../../../src/assets/contracts/contratto_segnalatore.docx'
+import guidaPerAcquisto from '../../../../src/assets/contracts/guida_per_acquisto_in_italia.pdf'
 
 import { SEO } from '../../layout'
 
@@ -81,6 +87,27 @@ const Services = ({ className }) => {
           ></img>
           <p>{t('services.WeManage')}</p>
         </div>
+        <h2>{t('Our Contracts')}</h2>
+        <ul className="links">
+          <a href={accordoDiSegnalazione} download>
+            Accordo di segnalazione
+          </a>
+          <a href={accordoMediatori} download>
+            Accordo mediatori
+          </a>
+          <a href={accordoMediatoriEn} download>
+            Accordo mediatori EN
+          </a>
+          <a href={consenso} download>
+            Consenso al trattamento dei dati
+          </a>
+          <a href={contrattoSegnalatore} download>
+            Contratto Segnalatore
+          </a>
+          <a href={guidaPerAcquisto} download>
+            guidaPerAcquisto
+          </a>
+        </ul>
       </div>
     </div>
   )
