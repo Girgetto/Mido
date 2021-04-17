@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import style from './style.module.scss'
 import { Link } from 'react-router-dom'
-import { ROUTES } from '../../../../constants'
 import { useTranslation } from 'react-i18next'
 import cs from 'classnames'
 import i18n from 'i18next'
+
+import { ROUTES } from '../../../../constants'
+import { LINKS, LANGUAGES } from '../constant'
 
 const MobileNavbar = ({ setLanguage }) => {
   const [isBlock, setIsBlock] = useState(false)
@@ -14,23 +16,6 @@ const MobileNavbar = ({ setLanguage }) => {
     setLanguage(lng)
     i18n.changeLanguage(lng)
   }
-
-  const LINKS = [
-    { name: t('navbar.home', 'Home'), route: ROUTES.index },
-    { name: t('navbar.aboutUs', 'About Us'), route: ROUTES.aboutUs },
-    { name: t('navbar.services', 'Services'), route: ROUTES.services },
-    { name: t('navbar.contacts', 'Contacts'), route: ROUTES.contacts },
-  ]
-
-  const LANGUAGES = [
-    { language: 'en', style: 'gb' },
-    { language: 'it', style: 'it' },
-    { language: 'es', style: 'es' },
-    { language: 'de', style: 'de' },
-    { language: 'fr', style: 'fr' },
-    { language: 'ru', style: 'ru' },
-    { language: '中文', style: 'cn' },
-  ]
 
   return (
     <div className={style.mobileNavbar}>
@@ -45,7 +30,7 @@ const MobileNavbar = ({ setLanguage }) => {
           <span className="icon" onClick={() => setIsBlock(!isBlock)}>
             <i className={cs('fa fa-times', style.faIcon)}></i>
           </span>
-          {LINKS.map(({ name, route }) => (
+          {LINKS(t, ROUTES).map(({ name, route }) => (
             <Link className={style.link} to={route} key={name}>
               {name}
             </Link>

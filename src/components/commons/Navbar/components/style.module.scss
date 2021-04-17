@@ -7,6 +7,10 @@
     top: 10px;
   }
 
+  img {
+    width: 15% !important;
+  }
+
   .language {
     margin-right: 10%;
     flex-direction: row;
@@ -32,6 +36,7 @@
     height: 100vh;
     background-color: #131313;
     z-index: 2;
+    padding: 50px 0;
   }
 
   /* Style navigation menu links */
@@ -67,14 +72,17 @@
   }
 
   .faIcon {
-    font-size: 38px;
-    right: 0;
     position: absolute;
-    margin: 20px;
+    font-size: 38px;
+    font-size: 38px;
+    right: 80px;
+    position: absolute;
+    top: 10px;
   }
 
   .bars {
-    padding-top: 0px;
+    right: 0px;
+    top: 0px;
   }
 
   .link {

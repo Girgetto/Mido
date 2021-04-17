@@ -3,7 +3,7 @@ import Navbar from './Navbar.component'
 
 export default styled(Navbar).attrs({})`
   z-index: 9999;
-  height: 20px;
+  height: 40px;
   width: 100vw;
   display: flex;
   align-items: center;

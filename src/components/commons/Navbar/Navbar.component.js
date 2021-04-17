@@ -4,7 +4,9 @@ import { ROUTES, CLASS_NAME } from '../../../constants'
 import { useTranslation } from 'react-i18next'
 import i18n from 'i18next'
 import cs from 'classnames'
+
 import MobileNavbar from './components/MobileNavbar'
+import { LANGUAGES } from './constant'
 
 const Navbar = ({ className, setLanguage }) => {
   const [t] = useTranslation()
@@ -53,62 +55,17 @@ const Navbar = ({ className, setLanguage }) => {
         </Link>
       </ul>
       <div className="language">
-        <span
-          className="language__gb"
-          onClick={() => changeLanguage('en')}
-          role="img"
-          aria-label="en"
-        >
-          EN
-        </span>
-        <span
-          className="language__it"
-          onClick={() => changeLanguage('it')}
-          role="img"
-          aria-label="it"
-        >
-          IT
-        </span>
-        <span
-          className="language__es"
-          onClick={() => changeLanguage('es')}
-          role="img"
-          aria-label="es"
-        >
-          ES
-        </span>
-        <span
-          className="language__de"
-          onClick={() => changeLanguage('de')}
-          role="img"
-          aria-label="de"
-        >
-          DE
-        </span>
-        <span
-          className="language__fr"
-          onClick={() => changeLanguage('fr')}
-          role="img"
-          aria-label="de"
-        >
-          FR
-        </span>
-        <span
-          className="language__ru"
-          onClick={() => changeLanguage('ru')}
-          role="img"
-          aria-label="ru"
-        >
-          RU
-        </span>
-        <span
-          className="language__cn"
-          onClick={() => changeLanguage('cn')}
-          role="img"
-          aria-label="cn"
-        >
-          中文
-        </span>
+        {LANGUAGES.map(({ language, style }) => (
+          <span
+            className={`language__${style}`}
+            onClick={() => changeLanguage(language)}
+            role="img"
+            aria-label={language}
+            key={language}
+          >
+            {language.toUpperCase()}
+          </span>
+        ))}
       </div>
     </div>
   )
