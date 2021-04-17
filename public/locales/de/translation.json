@@ -6,7 +6,7 @@
     "Analysis": "Analyse",
     "Consultancy": "Consulting",
     "Coordination": "Koordinierung",
-    "SpecializedConsultants":"Fachberater, die sich auf die Ermittlung von Immobilieninvestitionen für Beherbungsstrukturen und landwirtschaftliche Betriebe von erheblicher Bedeutung in der Toskana spezialisiert haben. Unsere Tätigkeit erstreckt sich auch auf prestigeträchtige Häuser in den wichtigsten Städten Italiens wie Mailand, Venedig, Florenz und Rom.",
+    "SpecializedConsultants": "Fachberater, die sich auf die Ermittlung von Immobilieninvestitionen für Beherbungsstrukturen und landwirtschaftliche Betriebe von erheblicher Bedeutung in der Toskana spezialisiert haben. Unsere Tätigkeit erstreckt sich auch auf prestigeträchtige Häuser in den wichtigsten Städten Italiens wie Mailand, Venedig, Florenz und Rom.",
     "OurMission": "Unsere Mission",
     "WeOffer": "Wir bieten spezifische Dienstleistungen an, um unsere Geschäftspartner eine bewusste Investition und Unterstützung bei der konsequenten Entwicklung des Unternehmensvermögens zu garantieren. Unser Ziel ist es, durch Ermittlungen und vertrauliche Verhandlungen ein ernstes und vertrauensvolles Verhältnis zu gewährleisten, damit der Käufer neue Geschäftsmöglichkeiten erschließen kann. Unsere Beratung richtet sich an Unternehmer, Hotelketten, Bauunternehmen, Immobilien- und Investmentfonds, die sich für das Gastgewerbe, den Tourismus und die Landwirtschaft interessieren. CTA: Mehr erfahren ->>",
     "Strengths": "Wichtigste Stärken",
@@ -22,9 +22,9 @@
     "WithAGrowing": "Mit einem sich ständig weiterentwickelnden Immobilienportfolio sind wir immer bereit, Marktchancen zu nutzen und zu schaffen. Unser Ansatz basiert auf einer eingehenden Analyse von Angebot und Nachfrage unter Berücksichtigung der Käuferbedürfnisse der Käufer. Durch eine Full Immersion zwischen Luxusimmobilien, historische Wohnsitze und typische Gebäude finden wir für Sie die richtige Lösung. Wir sind in den berühmtesten Orten der Welt wie Venedig, Rom, Mailand, dem Chianti-Gebiet, Florenz und Siena tätig. Wir bieten die Exzellenz des italienischen Prestige-Immobilienangebots.",
     "ATradition": "Eine zukunftsorientierte Tradition",
     "WeDevelop": "Alle Projekte werden nach einer Umweltethik und einer innovativen Funktionalität entwickelt. Wir bewerten die Auswirkungen von Materialien, Energieoptimierung und den Mehrwert von Design für eine Wettbewerbsfähigkeit, die in die Zukunft blickt. Dabei werden gebietsbezogene Trends berücksichtigt.",
-    "Advantages" : "Vorteile",
-    "ContactUs":"Nehmen Sie Kontakt mit uns auf",
-    "ConsciousInvestments":"Bewusste Investitionen für konkrete Vorteile ",
+    "Advantages": "Vorteile",
+    "ContactUs": "Nehmen Sie Kontakt mit uns auf",
+    "ConsciousInvestments": "Bewusste Investitionen für konkrete Vorteile ",
     "WeSeek": "Wir sind auf der ständigen Suche nach echten Vorteilen für Personen und Unternehmen, um Zeit- und Ressourcenverschwendung zu vermeiden. Ziel ist, dass sich unsere Kunden auf ihr Wachstum konzentrieren."
   },
   "aboutUs": {
@@ -45,17 +45,19 @@
     "Coordination": "Koordinierung",
     "AfterSales": "Kundenbetreuung nach dem Verkauf",
     "Planning": "Planung und Design",
-    "TheTarget": "Unsere Aufmerksamkeit richtet sich auf die stätige Identifizierung von Ressourcen und Marktchancen auf italienischem Gebiet. Darüber hinaus garantieren unsere hochrangigen Einkaufskanäle Qualität bei Verhandlungen und Einbindung in ein Netzwerk, das die Immobilienressourcen auch auf internationaler Ebene verbessert.",
-    "ADeep": "Eine gründliche Untersuchung der Unternehmensstruktur (corporate structure) ist wichtig, um den tatsächlichen Wert einer Immobilie zu ermitteln, und um jedes Geschäftsprojekt auf ein hohes Leistungsniveau zu bringen. Wir helfen Ihnen, die Verwaltungskosten zu optimieren: Unser Augenmerk legen wir nicht nur auf strukturelle Aspekte, sondern identifizieren auch potenzielle Risiken im Zusammenhang mit der Unternehmensführung, indem wir auf Lösungen für einen vorteilhaften Verkauf als auch einen lohnenswerten Kauf hinweisen.",
-    "WeWill": "Wir koordinieren ein Netzwerk qualifizierter Mitarbeiter, die Sie beim Kauf/Verkauf professionell unterstützen: Dokumentationen, spezifische Regelungen des Landes und Beschlüsse die zu befolgen sind. Wir sind Ihr Bezugskontakt bei der Interpretation des Regional-, National- und Kommunalrechts, und um Ihnen das Verfahren zur Einhaltung gesetzlicher Verpflichtungen anzugeben.",
-    "WeCoordinate": "Wir halten die besten Kontakte zu Ämtern und Behörden, die Analysen herstellen oder Genehmigungen erlassen. Unsere qualifizierten Mitarbeitern widmen sich bei der Lösung spezifischen Problemfälle, um die Sicherheit der Investition zu gewährleisten und zukünftige Entwicklungen zu unterbreiten."
+    "TheTarget": "Unsere Aufmerksamkeit richtet sich auf die stätige Identifizierung von Ressourcen und Marktchancen auf italienischem Gebiet. Darüber hinaus garantieren unsere hochrangigen Einkaufskanäle Qualität bei Verhandlungen und Einbindung in ein Netzwerk, das die Immobilienressourcen auch auf internationaler Ebene verbessert. ",
+    "ADeep": "Eine gründliche Untersuchung der Unternehmensstruktur (corporate structure) ist wichtig, um den tatsächlichen Wert einer Immobilie zu ermitteln, und um jedes Geschäftsprojekt auf ein hohes Leistungsniveau zu bringen. ",
+    "WeWill": "Wir helfen Ihnen, die Verwaltungskosten zu optimieren: Unser Augenmerk legen wir nicht nur auf strukturelle Aspekte, sondern identifizieren auch potenzielle Risiken im Zusammenhang mit der Unternehmensführung, indem wir auf Lösungen für einen vorteilhaften Verkauf als auch einen lohnenswerten Kauf hinweisen. ",
+    "WeCoordinate": "Wir koordinieren ein Netzwerk qualifizierter Mitarbeiter, die Sie beim Kauf/Verkauf professionell unterstützen: Dokumentationen, spezifische Regelungen des Landes und Beschlüsse die zu befolgen sind. ",
+    "Documentation": "Wir sind Ihr Bezugskontakt bei der Interpretation des Regional-, National- und Kommunalrechts, und um Ihnen das Verfahren zur Einhaltung gesetzlicher Verpflichtungen anzugeben. ",
+    "WeManage": "Wir halten die besten Kontakte zu Ämtern und Behörden, die Analysen herstellen oder Genehmigungen erlassen. Unsere qualifizierten Mitarbeitern widmen sich bei der Lösung spezifischen Problemfälle, um die Sicherheit der Investition zu gewährleisten und zukünftige Entwicklungen zu unterbreiten. "
   },
   "contact": {
-    "ContactUs":"Unser professionelles Team steht Ihnen in Ihrer Sprache zur Verfügung."
+    "ContactUs": "Unser professionelles Team steht Ihnen in Ihrer Sprache zur Verfügung."
   },
   "navbar": {
     "aboutUs": "Über Uns",
     "services": "Dienstleistungen",
-    "contacts" : "Kontakte"
+    "contacts": "Kontakte"
   }
 }

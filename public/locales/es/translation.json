@@ -22,9 +22,9 @@
     "WithAGrowing": "Con una cartera de bienes raíces en constante evolución, siempre estamos listos para aprovechar y crear oportunidades de mercado. Nuestro enfoque se basa en un análisis profundo de la oferta y la demanda teniendo en cuenta las necesidades de los compradores. Encontramos la solución adecuada en un viaje a través de propiedades de lujo, residencias de época y estructuras típicas para una verdadera inmersión en la belleza. Operamos en los lugares más famosos del mundo, como Venecia, Roma, Milán y el área de Chianti, Florencia, Siena. Ofrecemos la excelencia de la oferta inmobiliaria de prestigio italiano.",
     "ATradition": "Una tradizion derigida al futuro",
     "WeDevelop": "Desarrollamos proyectos de acuerdo con una ética ambiental y una funcionalidad innovadora. Evaluamos el impacto de los materiales, la optimización energética y el valor agregado del diseño para una competitividad que mira hacia el futuro con atención a las tendencias que respetan el territorio.",
-    "Advantages" : "ventajas",
-    "ContactUs":"Ponte en contacto",
-    "ConsciousInvestments":"Inversiones bien informadas para obtener beneficios reales",
+    "Advantages": "ventajas",
+    "ContactUs": "Ponte en contacto",
+    "ConsciousInvestments": "Inversiones bien informadas para obtener beneficios reales",
     "WeSeek": "Estamos buscando beneficios reales para las personas y las empresas, evitando pérdidas de tiempo y recursos. Queremos permitir que nuestros clientes se concentren en el crecimiento que les interesa."
   },
   "about": {
@@ -45,17 +45,19 @@
     "Coordination": "Coordinación",
     "AfterSales": "Asistencia post venta",
     "Planning": "Planificación y diseño.",
-    "TheTarget": "Nuestra atención siempre se centra en identificar recursos y oportunidades de mercado en el territorio italiano. Además, nuestros canales de compra de alto nivel garantizan calidad en las negociaciones e inserción en una red que mejora los recursos inmobiliarios también a nivel internacional.",
-    "ADeep": "Una investigación exhaustiva de la estructura corporativa es esencial para establecer el valor real de una propiedad y es esencial para llevar cada proyecto empresarial a altos niveles de rendimiento. Le ayudaremos a comprender cómo optimizar los costos de gestión: no nos detenemos en los aspectos estructurales, sino que también identificamos los riesgos potenciales relacionados con la gestión empresarial al orientarlo hacia la solución para proponer una venta atractiva y una compra ventajosa.",
-    "WeWill": "Coordinamos una red de colaboradores calificados para apoyarlo en la venta y asistencia específica. Documentación, normativa específica del territorio, resoluciones a seguir. Somos su referencia en la comprensión de la legislación regional, nacional y comunitaria para indicar el procedimiento para cumplir con las obligaciones legales",
-    "WeCoordinate": "Gestionamos relaciones con entidades responsables de analizar o emitir permisos y autorizaciones y operamos a través de una red de figuras dedicadas a resolver problemas específicos para garantizar la seguridad de la inversión y la posibilidad de su desarrollo futuro."
+    "TheTarget": "Nuestra atención siempre se centra en identificar recursos y oportunidades de mercado en el territorio italiano. Además, nuestros canales de compra de alto nivel garantizan calidad en las negociaciones e inserción en una red que mejora los recursos inmobiliarios también a nivel internacional. ",
+    "ADeep": "Una investigación exhaustiva de la estructura corporativa es esencial para establecer el valor real de una propiedad y es esencial para llevar cada proyecto empresarial a altos niveles de rendimiento. ",
+    "WeWill": "Le ayudaremos a comprender cómo optimizar los costos de gestión: no nos detenemos en los aspectos estructurales, sino que también identificamos los riesgos potenciales relacionados con la gestión empresarial al orientarlo hacia la solución para proponer una venta atractiva y una compra ventajosa. ",
+    "WeCoordinate": "Coordinamos una red de colaboradores calificados para apoyarlo en la venta y asistencia específica. Documentación, normativa específica del territorio, resoluciones a seguir. ",
+    "Documentation": "Somos su referencia en la comprensión de la legislación regional, nacional y comunitaria para indicar el procedimiento para cumplir con las obligaciones legales ",
+    "WeManage": "Gestionamos relaciones con entidades responsables de analizar o emitir permisos y autorizaciones y operamos a través de una red de figuras dedicadas a resolver problemas específicos para garantizar la seguridad de la inversión y la posibilidad de su desarrollo futuro. "
   },
   "contact": {
-    "ContactUs":"Contáctanos, estaremos encantados de brindarte la información que necesitas para acompañarte siempre un paso adelante. Nuestro equipo profesional está disponible para ayudarlo en su idioma."
+    "ContactUs": "Contáctanos, estaremos encantados de brindarte la información que necesitas para acompañarte siempre un paso adelante. Nuestro equipo profesional está disponible para ayudarlo en su idioma."
   },
   "navbar": {
     "aboutUs": "Quienes somos",
     "services": "Servicios",
-    "contacts" : "Contactos"
+    "contacts": "Contactos"
   }
 }

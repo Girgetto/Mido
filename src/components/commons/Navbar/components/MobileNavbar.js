@@ -46,7 +46,7 @@ const MobileNavbar = ({ setLanguage }) => {
             <i className={cs('fa fa-times', style.faIcon)}></i>
           </span>
           {LINKS.map(({ name, route }) => (
-            <Link className={style.link} to={route}>
+            <Link className={style.link} to={route} key={name}>
               {name}
             </Link>
           ))}
@@ -57,6 +57,7 @@ const MobileNavbar = ({ setLanguage }) => {
                 onClick={() => changeLanguage(language)}
                 role="img"
                 aria-label={language}
+                key={language}
               >
                 {language.toUpperCase()}
               </span>

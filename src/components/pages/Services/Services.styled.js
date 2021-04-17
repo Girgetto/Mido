@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 import Services from './Services.component'
-import background from '../../../assets/img/services4.jpg'
 
 export default styled(Services).attrs({})`
   .header {
@@ -38,10 +37,38 @@ export default styled(Services).attrs({})`
 
   .content {
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
 
     .titles {
       letter-spacing: 0.1rem;
+    }
+
+    .lists {
+      display: flex;
+      justify-content: space-between;
+      ul {
+        font-family: 'AvenirNext-UltraLight';
+        vertical-align: baseline;
+        color: #fff;
+        background-color: #121212;
+        font-size: 18px;
+      }
+    }
+
+    .flex {
+      display: flex;
+      height: 300px;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      img {
+        width: 389px;
+        height: 150px;
+      }
+      p {
+        max-width: 439px;
+      }
     }
   }
 `

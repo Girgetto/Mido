@@ -16,21 +16,71 @@ const Services = ({ className }) => {
         </p>
       </div>
       <div className="content">
-        <h2>{t('services.Intro')}</h2>
-        <p>{t('services.IntroText')}</p>
-        <div className="titles">
-          <h3>
-            {t('services.LuxuryRealEstate')} | {t('services.BusinessAdvisory')}{' '}
-            |{t('services.TechnicalAdvice')} | {t('services.Refurbishment')} |
-            {t('services.BusinessMaximization')} | {t('services.Management')} |
-            {t('services.Coordination')} | {t('services.AfterSales')} |
-            {t('services.Planning')}
-          </h3>
+        <div className="lists">
+          <ul>
+            <li>{t('services.LuxuryRealEstate').toUpperCase()}</li>
+            <li>{t('services.BusinessAdvisory').toUpperCase()}</li>
+            <li>{t('services.TechnicalAdvice').toUpperCase()}</li>
+          </ul>
+          <ul>
+            <li>{t('services.Refurbishment').toUpperCase()}</li>
+            <li>{t('services.BusinessMaximization').toUpperCase()}</li>
+            <li>{t('services.Management').toUpperCase()}</li>
+          </ul>
+          <ul>
+            <li>{t('services.Coordination').toUpperCase()}</li>
+            <li>{t('services.AfterSales').toUpperCase()}</li>
+            <li>{t('services.Planning').toUpperCase()}</li>
+          </ul>
         </div>
-        <p>{t('services.TheTarget')}</p>
-        <p>{t('services.ADeep')}</p>
-        <p>{t('services.WeWill')}</p>
-        <p>{t('services.WeCoordinate')}</p>
+        <div className="flex">
+          <h1>01</h1>
+          <img
+            alt="service-1"
+            src="https://www.omidaconsulting.com/wp-content/uploads/2020/06/6.jpg"
+          ></img>
+          <p>{t('services.TheTarget')}</p>
+        </div>
+        <div className="flex">
+          <h1>02</h1>
+          <img
+            alt="service-1"
+            src="https://www.omidaconsulting.com/wp-content/uploads/2020/06/4.jpg"
+          ></img>
+          <p>{t('services.ADeep')}</p>
+        </div>
+        <div className="flex">
+          <h1>03</h1>
+          <img
+            alt="service-1"
+            src="https://www.omidaconsulting.com/wp-content/uploads/2020/06/1.jpg"
+          ></img>
+          <p>{t('services.WeWill')}</p>
+        </div>
+        <div className="flex">
+          <h1>04</h1>
+          <img
+            alt="service-1"
+            src="https://www.omidaconsulting.com/wp-content/uploads/2020/06/2.jpg"
+          ></img>
+          <p>{t('services.WeCoordinate')}</p>
+        </div>
+        <div className="flex">
+          <h1>05</h1>
+          <img
+            alt="service-1"
+            src="https://www.omidaconsulting.com/wp-content/uploads/2020/06/7.jpg"
+          ></img>
+          <p>{t('services.Documentation')}</p>
+        </div>
+        <div className="flex">
+          <h1>06</h1>
+          <img
+            alt="service-1"
+            src="https://www.omidaconsulting.com/wp-content/uploads/2020/06/5.jpg"
+          ></img>
+          <p>{t('services.WeManage')}</p>
+        </div>
       </div>
     </div>
   )
