@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import Link from 'react-router-dom/Link'
+import { Link } from 'react-router-dom'
 
 import { SEO } from '../../layout'
 import key from '../../../assets/img/key.png'

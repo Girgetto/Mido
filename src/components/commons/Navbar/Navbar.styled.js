@@ -15,6 +15,17 @@ export default styled(Navbar).attrs({})`
   position: fixed;
   background-color: #131313;
 
+  .logo {
+    width: 5%;
+    height: auto;
+  }
+
+  .lazyloaded {
+    opacity: 1;
+    transition: opacity 0.4s;
+    transition-delay: 0ms;
+  }
+
   .selected {
     border-bottom: 1px solid;
   }

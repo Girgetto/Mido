@@ -15,7 +15,15 @@ const Navbar = ({ className, setLanguage }) => {
 
   return (
     <div className={className}>
-      <MobileNavbar setLanguage={setLanguage}/>
+      <img
+        width="280"
+        height="231"
+        src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_280,h_231/https://www.omidaconsulting.com/wp-content/uploads/2020/06/omida-logo.png"
+        data-src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_280,h_231/https://www.omidaconsulting.com/wp-content/uploads/2020/06/omida-logo.png"
+        className="attachment-large size-large lazyloaded logo"
+        alt="omida-logo"
+      ></img>
+      <MobileNavbar setLanguage={setLanguage} />
       <ul className="list">
         <Link
           to={ROUTES.index}
