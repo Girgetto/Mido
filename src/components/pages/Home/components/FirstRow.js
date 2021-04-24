@@ -1,8 +1,9 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import cs from 'classnames'
+
 import styles from './style.module.scss'
 import castle from '../../../../assets/img/castle.jpg'
-import cs from 'classnames'
 
 const FirstSquares = () => {
   const [t] = useTranslation()

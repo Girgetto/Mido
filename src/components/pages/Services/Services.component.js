@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+
 import accordoDiSegnalazione from '../../../../src/assets/contracts/accordo_di_segnalazione.docx'
 import accordoMediatoriEn from '../../../../src/assets/contracts/accordo_mediatori_en.doc'
 import accordoMediatori from '../../../../src/assets/contracts/accordo_mediatori.doc'
@@ -8,6 +9,15 @@ import contrattoSegnalatore from '../../../../src/assets/contracts/contratto_seg
 import guidaPerAcquisto from '../../../../src/assets/contracts/guida_per_acquisto_in_italia.pdf'
 
 import { SEO } from '../../layout'
+
+const contracts = [
+  { href: accordoDiSegnalazione, name: 'Accordo di segnalazione' },
+  { href: accordoMediatori, name: 'Accordo mediatori' },
+  { href: accordoMediatoriEn, name: 'Accordo mediatori EN' },
+  { href: consenso, name: 'Consenso al trattamento dei dati' },
+  { href: contrattoSegnalatore, name: 'Contratto Segnalatore' },
+  { href: guidaPerAcquisto, name: 'Guida per acquisto' },
+]
 
 const Services = ({ className }) => {
   const [t] = useTranslation()
@@ -87,26 +97,15 @@ const Services = ({ className }) => {
           ></img>
           <p>{t('services.WeManage')}</p>
         </div>
-        <h2>{t('Our Contracts')}</h2>
+        <h2 style={{ marginLeft: '10% '}}>{t('Our Contracts')}</h2>
         <ul className="links">
-          <a href={accordoDiSegnalazione} download>
-            Accordo di segnalazione
-          </a>
-          <a href={accordoMediatori} download>
-            Accordo mediatori
-          </a>
-          <a href={accordoMediatoriEn} download>
-            Accordo mediatori EN
-          </a>
-          <a href={consenso} download>
-            Consenso al trattamento dei dati
-          </a>
-          <a href={contrattoSegnalatore} download>
-            Contratto Segnalatore
-          </a>
-          <a href={guidaPerAcquisto} download>
-            guidaPerAcquisto
-          </a>
+          {contracts.map(({ href, name }) => (
+            <li>
+              <a href={href} download>
+                {name}
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

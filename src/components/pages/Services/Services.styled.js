@@ -72,7 +72,8 @@ export default styled(Services).attrs({})`
     }
   }
   .links {
-    > a {
+    margin-left: 15%;
+    > li > a {
       color: white;
       padding: 5px;
     }
