@@ -55,10 +55,10 @@ const Navbar = ({ className, setLanguage }) => {
         </Link>
       </ul>
       <div className="language">
-        {LANGUAGES.map(({ language, style }) => (
+        {LANGUAGES.map(({ language, value }) => (
           <span
-            className={`language__${style}`}
-            onClick={() => changeLanguage(language)}
+            className={`language__${value}`}
+            onClick={() => changeLanguage(value)}
             role="img"
             aria-label={language}
             key={language}
