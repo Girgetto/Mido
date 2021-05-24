@@ -7,6 +7,7 @@ import cs from 'classnames'
 
 import MobileNavbar from './components/MobileNavbar'
 import { LANGUAGES } from './constant'
+import omidaLogo from '../../../assets/img/omida-logo.png'
 
 const Navbar = ({ className, setLanguage }) => {
   const [t] = useTranslation()
@@ -20,8 +21,8 @@ const Navbar = ({ className, setLanguage }) => {
       <img
         width="280"
         height="231"
-        src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_280,h_231/https://www.omidaconsulting.com/wp-content/uploads/2020/06/omida-logo.png"
-        data-src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_280,h_231/https://www.omidaconsulting.com/wp-content/uploads/2020/06/omida-logo.png"
+        src={omidaLogo}
+        data-src={omidaLogo}
         className="attachment-large size-large lazyloaded logo"
         alt="omida-logo"
       ></img>
