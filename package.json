@@ -49,8 +49,8 @@
     "y18n": "^5.0.5"
   },
   "scripts": {
-    "start": "dotenv -e .env.development react-scripts start",
-    "build": "dotenv -e .env.production react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "node_modules/.bin/eslint .",
