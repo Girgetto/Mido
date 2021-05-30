@@ -21,7 +21,9 @@ const Home = ({ className }) => {
           <Comp.FirstRow />
           <Comp.SecondRow />
           <Comp.ThirdRow />
-          <Gallery />
+          <div id="gallery">
+            <Gallery />
+          </div>
           <Comp.LastSection />
         </div>
       </SEO>

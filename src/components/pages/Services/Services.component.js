@@ -90,8 +90,8 @@ const Services = ({ className }) => {
         </div>
         <h2 style={{ marginLeft: '10% ' }}>{t('Our Contracts')}</h2>
         <ul className="links">
-          {contracts.map(({ href, name }) => (
-            <li>
+          {contracts.map(({ href, name }, index) => (
+            <li key={index}>
               <a href={href} download>
                 {name}
               </a>

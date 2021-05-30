@@ -10,7 +10,7 @@ const MyItem = ({ src }) => {
           onClick={open}
           src={src}
           alt={src}
-          width="380"
+          width="auto"
           height="240"
         />
       )}

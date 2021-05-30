@@ -16,6 +16,13 @@ export default styled(Home).attrs({})`
     }
   }
 
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (max-width: 768px) {
+    #gallery {
+      display: none;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
     .logo-header {
       width: 300px !important;
