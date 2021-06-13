@@ -25,7 +25,7 @@ const MobileNavbar = ({ setLanguage }) => {
         </span>
         <div
           id={style.myLinks}
-          style={!isBlock ? { display: 'none' } : { display: 'block' }}
+          style={isBlock ? { left: '0' } : { left: '-100vw' }}
         >
           <span className="icon" onClick={() => setIsBlock(!isBlock)}>
             <i className={cs('fa fa-times', style.faIcon)}></i>

@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /*background-image: url('../../../../assets/img/franco.jpg');*/
     background-repeat: no-repeat;
     object-fit: contain;
     min-height: 500px;
@@ -137,7 +136,7 @@
   }
   &:hover {
     transition: 0.5s;
-    color: #131313;
+    color: $primary;
     .overLayer {
       transform: translateX(0px);
       color: black;
@@ -176,6 +175,7 @@
 
   .squares {
     flex-direction: column;
+    background-color: $primary;
 
     .square {
       width: 100%;

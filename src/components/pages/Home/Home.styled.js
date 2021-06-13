@@ -2,9 +2,6 @@ import styled from 'styled-components'
 import Home from './Home.component'
 
 export default styled(Home).attrs({})`
-  margin: 0 auto;
-  width: 80%;
-
   .firstSection {
     height: 724px;
     display: flex;
@@ -21,6 +18,8 @@ export default styled(Home).attrs({})`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media (max-width: 768px) {
+    margin: 0 auto;
+    width: 80%;
     #gallery {
       display: none;
     }
