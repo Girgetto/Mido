@@ -2,6 +2,9 @@ import styled from 'styled-components'
 import Home from './Home.component'
 
 export default styled(Home).attrs({})`
+  margin: 0 auto;
+  width: 80%;
+
   .firstSection {
     height: 724px;
     display: flex;
