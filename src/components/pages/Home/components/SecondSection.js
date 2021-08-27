@@ -11,8 +11,8 @@ const SecondSection = () => {
       <ReactPlayer
         width="956px"
         height="540px"
-        playing
         url="https://www.youtube.com/watch?v=r4Hcrsdgz1Q"
+        style={{ display: 'none' }}
       />
       <div className={style.titles}>
         <p className={style.paraph}>

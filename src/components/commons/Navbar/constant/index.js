@@ -6,9 +6,4 @@ export const LINKS = (t, ROUTES) => [
 export const LANGUAGES = [
   { language: 'en', value: 'gb' },
   { language: 'it', value: 'it' },
-  { language: 'es', value: 'es' },
-  { language: 'de', value: 'de' },
-  { language: 'fr', value: 'fr' },
-  { language: 'ru', value: 'ru' },
-  { language: '中文', value: 'cn' },
 ]

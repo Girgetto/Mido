@@ -7,7 +7,6 @@ import cs from 'classnames'
 
 import MobileNavbar from './components/MobileNavbar'
 import { LANGUAGES } from './constant'
-import omidaLogo from '../../../assets/img/omida-logo.png'
 
 const Navbar = ({ className, setLanguage }) => {
   const [t] = useTranslation()
@@ -30,14 +29,6 @@ const Navbar = ({ className, setLanguage }) => {
 
   return (
     <div className={className} ref={navbar}>
-      <img
-        width="280"
-        height="231"
-        src={omidaLogo}
-        data-src={omidaLogo}
-        className="attachment-large size-large lazyloaded logo"
-        alt="omida-logo"
-      ></img>
       <MobileNavbar setLanguage={setLanguage} />
       <ul className="list">
         <Link
