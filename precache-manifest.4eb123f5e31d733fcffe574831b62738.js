@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "112a7da2583936589c72f4f26dcf16ca",
+    "revision": "30a256f89067e963ea471347f1ef4ecd",
     "url": "/index.html"
   },
   {
-    "revision": "d582978991523216dae5",
+    "revision": "b162d2b26cbb7f2b22c4",
     "url": "/static/css/2.497814f1.chunk.css"
   },
   {
-    "revision": "911879dfc92feaba0a94",
-    "url": "/static/css/main.0250cce3.chunk.css"
+    "revision": "79900031f49fc42e004f",
+    "url": "/static/css/main.dedc6c32.chunk.css"
   },
   {
-    "revision": "d582978991523216dae5",
-    "url": "/static/js/2.e51461ac.chunk.js"
+    "revision": "b162d2b26cbb7f2b22c4",
+    "url": "/static/js/2.ca5c252d.chunk.js"
   },
   {
-    "revision": "911879dfc92feaba0a94",
-    "url": "/static/js/main.912ea6a7.chunk.js"
+    "revision": "79900031f49fc42e004f",
+    "url": "/static/js/main.ced451ed.chunk.js"
   },
   {
     "revision": "f523823b3f2ad62669d8",
@@ -96,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/default-skin.b257fa9c.svg"
   },
   {
+    "revision": "45ba7cfce8e0655502a976f1fb909cf5",
+    "url": "/static/media/franco.45ba7cfc.png"
+  },
+  {
     "revision": "99a80f26e6345c860a50e4d4bc5d3127",
     "url": "/static/media/giardino_italiana.99a80f26.jpg"
   },
@@ -124,10 +128,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/monteriggioni.b0b8d530.jpg"
   },
   {
-    "revision": "89d8c9a00a32f4a7c9d417398043015e",
-    "url": "/static/media/omida-real-estate-consulting-italy.89d8c9a0.png"
-  },
-  {
     "revision": "a305912192d9349a288a690343f2be79",
     "url": "/static/media/paesaggio toscano.a3059121.jpg"
   },
@@ -138,10 +138,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "277f25634a07ada6f864b355a69ad70b",
     "url": "/static/media/particolare_di_villa.277f2563.jpg"
-  },
-  {
-    "revision": "3b29928af47544c3c3db652f0ae5c009",
-    "url": "/static/media/pisa_lungarno.3b29928a.jpg"
   },
   {
     "revision": "767dff3f1b7cd86d69e0e0b9bf81ff74",
